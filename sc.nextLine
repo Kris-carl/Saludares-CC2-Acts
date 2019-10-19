@@ -1,0 +1,15 @@
+//First step
+import java.util.*;
+
+public class UserInput {
+  public static void main( String args[]){
+    //second step --> class instantation
+    Scanner sc= new Scanner(System.in);
+    String name=" ";
+    System.out.println("Enter your name:");
+    //third step
+    name= sc.nextLine();
+    Systemout.println("hi"+ name);
+    }
+}
+ 
